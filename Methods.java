@@ -15,6 +15,5 @@ class Methods {
         String str = obj.getMeAPen(2);
         System.out.println(str);
 
-    }
-    
+    }   
 }
