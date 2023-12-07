@@ -1,8 +1,8 @@
 class Casting{
     public static void main(String arg[]){
         // conversion
-        double a = 4.56;
-        int x = (int)a;
+        byte a = 42;
+        int x = a;
         System.out.println(x);
         // casting
         int y = 32;
