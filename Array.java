@@ -15,6 +15,22 @@ class Array {
         for(int i=0; i<4; i++){
             System.out.println(x[i]);
         }
+        //multi dimensional array
+        int a[][] = new int[3][4];
+        for(int j=0; j<3; j++){
+            for(int k=0; k<4; k++){
+                a[j][k] = (int)(Math.random()*10);
+                System.out.print(a[j][k] + " ");
+            }
+            System.out.println();
+        }  
+        // 2nd method  
+        for(int n[] : a){
+            for(int m: n){
+                System.out.print(m + " ");
+            }
+            System.out.println();
+        }
     }
     
 }
