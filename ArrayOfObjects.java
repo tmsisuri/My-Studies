@@ -19,7 +19,7 @@ class ArrayOfObjects {
         s3.rollno = 1;
         s3.name = "Anne";
         s3.marks = 63;
-        System.out.println(s3);
+        
         Student students[] = new Student[3];
         students[0] = s1;
         students[1] = s2;
