@@ -43,6 +43,18 @@ class Array {
             }
             System.out.println();
         }
+        //three dimensional array
+        int c[][][] = new int[3][2][4];
+        for(int i=0; i<c.length; i++){
+            for(int j=0; j<c[i].length; j++){
+                System.out.println();
+                for(int k=0; k<c[i][j].length; k++){
+                    c[i][j][k] = (int)(Math.random()*10);
+                    System.out.print(c[i][j][k] + " ");
+                }
+            }
+            System.out.println();
+        }
     }
     
 }
