@@ -38,9 +38,18 @@ public class Loop {
          //nested for loop
         for(int b=1; b<=5; b++){
          System.out.println("day " + b);
-        for(int c=1; c<=9; c++){
+         for(int c=1; c<=9; c++){
              System.out.println("   " + (c+8) + " - " + (c+9));
         }
+       }
+       //enhanced for loop
+       int num[] = new int[4];
+       num[0] = 4;
+       num[1] = 6;
+       num[2] = 2;
+       num[3] = 8;
+       for(int n : num){
+         System.out.println(n);
        }
     }
     
