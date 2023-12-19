@@ -1,6 +1,7 @@
 class EnhancedForLoop {
     public static void main(String arg[]){
-        int num[] = new int[4];
+        //only work for array and array type of data
+       int num[] = new int[4];
        num[0] = 4;
        num[1] = 6;
        num[2] = 2;
