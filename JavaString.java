@@ -20,5 +20,11 @@ class JavaString {
         System.out.println(sb);
         System.out.println(sb.capacity());
         System.out.println(sb.length());
+        sb.append(" Studies");
+        System.out.println(sb);
+        sb.deleteCharAt(9);
+        System.out.println(sb);
+        sb.insert(0,"My ");
+        System.out.println(sb);
     }
 }
