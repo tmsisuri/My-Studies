@@ -26,5 +26,10 @@ class JavaString {
         System.out.println(sb);
         sb.insert(0,"My ");
         System.out.println(sb);
+        sb.setLength(20);
+        sb.ensureCapacity(100);
+        //StringBuffer to String
+        String str = sb.toString();
+        System.out.println(str);
     }
 }
