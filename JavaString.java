@@ -31,5 +31,12 @@ class JavaString {
         //StringBuffer to String
         String str = sb.toString();
         System.out.println(str);
+        //StringBuilder
+        StringBuilder sbr = new StringBuilder("Hello");
+        System.out.println(sbr);
+        System.out.println(sbr.capacity());
+        System.out.println(sbr.length());
+        sbr.append(" Good Morning!!!!");
+        System.out.println(sbr);
     }
 }
