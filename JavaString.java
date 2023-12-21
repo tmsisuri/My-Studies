@@ -38,5 +38,11 @@ class JavaString {
         System.out.println(sbr.length());
         sbr.append(" Good Morning!!!!");
         System.out.println(sbr);
+        sbr.deleteCharAt(18);
+        System.out.println(sbr);
+        sbr.delete(19, 21);
+        System.out.println(sbr);
+        sbr.insert(18,"!");
+        System.out.println(sbr);
     }
 }
