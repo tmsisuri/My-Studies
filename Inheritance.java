@@ -34,5 +34,6 @@ class Inheritance {
         double r5 = obj.power(6, 3);
         int r6 = obj.remainder(45, 7);
         System.out.println(r1 + " " + r2 + " " + r3 + " " + r4 + " " + r5 + " " + r6);
+        //in JAVA multiple inheritance does not work
     }
 }
