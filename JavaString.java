@@ -44,5 +44,16 @@ class JavaString {
         System.out.println(sbr);
         sbr.insert(18,"!");
         System.out.println(sbr);
+        //upper case and lower case in string
+        String sr = "Hello This Is My First Java Project";
+        //length of the String variable
+        int x = sr.length();
+        System.out.println(x);
+        //turn every letter to upper case
+        String i = sr.toUpperCase();
+        System.out.println(i);
+        //turn every letter to lower case
+        String s = sr.toLowerCase();
+        System.out.println(s);
     }
 }
