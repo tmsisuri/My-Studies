@@ -59,22 +59,22 @@ class Drinks{
 }
 class Constructor {
     public static void main(String arg[]){
-        // Drinks obj1 = new Drinks();
-        // System.out.println(obj1.getName() + " : " + obj1.getPrice());
+        Drinks obj1 = new Drinks();
+        System.out.println(obj1.getName() + " : " + obj1.getPrice());
 
-        // Drinks obj2 = new Drinks();
-        // obj2.setName("Coffee");
-        // obj2.setPrice(150);
-        // System.out.println(obj2.getName() + " : " + obj2.getPrice());
+        Drinks obj2 = new Drinks();
+        obj2.setName("Coffee");
+        obj2.setPrice(150);
+        System.out.println(obj2.getName() + " : " + obj2.getPrice());
 
-        // Drinks obj3 = new Drinks("Hot chocolate" , 200 );
-        // System.out.println(obj3.getName() + " : " + obj3.getPrice());
+        Drinks obj3 = new Drinks("Hot chocolate" , 200 );
+        System.out.println(obj3.getName() + " : " + obj3.getPrice());
 
-        // Drinks obj4 = new Drinks("Ice Coffee");
-        // System.out.println(obj4.getName() + " : " + obj4.getPrice());
+        Drinks obj4 = new Drinks("Ice Coffee");
+        System.out.println(obj4.getName() + " : " + obj4.getPrice());
         
-        // Drinks obj5 = new Drinks(obj2 , "small");
-        // System.out.println(obj5.getName() + " : " + obj5.getPrice() + " : " + obj5.getSize());
+        Drinks obj5 = new Drinks(obj2 , "small");
+        System.out.println(obj5.getName() + " : " + obj5.getPrice() + " : " + obj5.getSize());
 
         Drinks obj6 = new Drinks("Tea" , 150 , "large");
         System.out.println(obj6.getName() + " : " + obj6.getPrice() + " : " + obj6.getSize());
