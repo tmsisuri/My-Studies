@@ -20,7 +20,7 @@ class Methods{
         n1 = sc.nextDouble();
         System.out.print("Input second number : ");
         n2 = sc.nextDouble();
-        System.out.print("Input operator");
+        System.out.print("Input operator : ");
         operator = sc.next();
     }
 
