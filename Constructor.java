@@ -78,5 +78,7 @@ class Constructor {
 
         Drinks obj6 = new Drinks("Tea" , 150 , "large");
         System.out.println(obj6.getName() + " : " + obj6.getPrice() + " : " + obj6.getSize());
+        
+        //every time when the object creat it will call the constructor
     }
 }
