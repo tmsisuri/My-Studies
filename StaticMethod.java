@@ -24,5 +24,6 @@ class StaticMethod {
         Food.show(obj1);
         Food.show(obj2);
         Food.show(obj3);
+        //static methods can directly call by the class name without the object creation
     }
 }
