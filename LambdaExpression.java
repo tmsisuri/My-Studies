@@ -10,7 +10,18 @@ interface B {
 
 public class LambdaExpression {
     public static void main(String[] args) {
-        //Lambda Expression
+        //Lambda Expression only works with a functional interface
+        
+        /*
+        without Lambda Expression
+        A obj = new A() {
+            public void show() {
+                System.out.println("in show");
+            }
+        };
+        */
+
+        //with Lambda Expression
         A obj1 = () -> System.out.println("in show");
         obj1.show();
 
