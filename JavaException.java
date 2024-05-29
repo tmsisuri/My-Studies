@@ -1,4 +1,4 @@
-public class Exception {
+public class JavaException {
     //Errors
 
         //1 - Compile time errors (syntex errors)
