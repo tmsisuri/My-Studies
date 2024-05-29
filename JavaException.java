@@ -19,6 +19,7 @@ public class JavaException {
         //4 - Exceptions
         //Exceptions are events that disrupt the normal flow of the program. 
         //Java provides a robust exception handling mechanism to manage these disruptions
+        //all the runtime exeptions are called uncheked exeptions and all the other exeptions are called cheked exeptions
 
             //Checked Exceptions
             //Checked exceptions are checked at compile-time
