@@ -1,5 +1,6 @@
 class Counter {
     int count;
+    //Synchronization in Java is the process that allows only one thread at a particular time to complete a given task entirely
     public synchronized void increment() {
         count++;
     }
@@ -28,6 +29,7 @@ public class RaceCondition {
         t1.start();
         t2.start();
 
+        //Join method in Java allows one thread to wait until another thread completes its execution
         t1.join();
         t2.join();
 
