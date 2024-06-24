@@ -13,7 +13,7 @@ public class ForEachAndConsumer {
         };
         nums.forEach(con);
 
-        //woth lambda Expression
+        //with lambda Expression
         Consumer<Integer> consumer = n -> System.out.println(n);
         nums.forEach(consumer);
 
