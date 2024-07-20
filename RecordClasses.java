@@ -59,6 +59,12 @@ record Alien (int id , String name) {
 
 public class RecordClasses {
     public static void main(String[] args) {
+
+        //record is a class
+        //all the variables are in record are private and final
+        //record cannot extend any other class but it can implement the interfaces
+        //we can create normal , static methods and static variables inside a record
+        
         Alien a1 = new Alien(1,"Navin");
         Alien a2 = new Alien(1,"Navin");
         Alien a3 = new Alien(0,"Navin");
